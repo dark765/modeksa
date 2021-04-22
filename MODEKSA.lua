@@ -146,7 +146,7 @@ token = sudos.token
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,1282382975,1765160742,bot_id}
+sudo_users = {SUDO,1216110209,bot_id}
 function SudoBot(msg)  
 local MODEKSA = false  
 for k,v in pairs(sudo_users) do  
@@ -221,10 +221,8 @@ return false
 end 
 end
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(1282382975) then  
+if tonumber(user_id) == tonumber(1216110209) then  
 var = true  
-elseif tonumber(user_id) == tonumber(1765160742) then  
-var = true
 elseif tonumber(user_id) == tonumber(SUDO) then  
 var = true  
 elseif tonumber(user_id) == tonumber(bot_id) then  
@@ -252,12 +250,8 @@ return var
 end 
 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(1282382975) then  
-var = 'دارككككككككك يواددد'
-elseif tonumber(user_id) == tonumber(1765160742) then
-var = 'جوكر فيك'  
-elseif tonumber(user_id) == tonumber(SUDO) then
-var = 'المطور الاساسي'  
+if tonumber(user_id) == tonumber(1216110209) then  
+var = ' مطور نيغاا'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
 elseif tonumber(user_id) == tonumber(bot_id) then  
@@ -3613,7 +3607,7 @@ if result.sender_user_id_ == tonumber(SUDO) then
 send(msg.chat_id_, msg.id_, "• لا يمكنك حظر المطور الاساسي \n")
 return false 
 end
-if result.sender_user_id_ == tonumber(1282382975) then
+if result.sender_user_id_ == tonumber(1216110209) then
 send(msg.chat_id_, msg.id_, "•لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
@@ -3658,7 +3652,7 @@ if result.id_ == tonumber(SUDO) then
 send(msg.chat_id_, msg.id_, "• لا يمكنك حظر المطور الاساسي \n")
 return false 
 end
-if result.id_ == tonumber(1282382975) then
+if result.id_ == tonumber(1216110209) then
 send(msg.chat_id_, msg.id_, "•  لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
@@ -3689,7 +3683,7 @@ if userid == tonumber(SUDO) then
 send(msg.chat_id_, msg.id_, "• لا يمكنك حظر المطور الاساسي \n")
 return false 
 end
-if result.id_ == tonumber(1282382975) then
+if result.id_ == tonumber(1216110209) then
 send(msg.chat_id_, msg.id_, "•  لا يمكنك حظر مبرمج السورس \n")
 return false 
 end
